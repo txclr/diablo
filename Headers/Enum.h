@@ -1,0 +1,60 @@
+#pragma once
+
+#ifndef __ENUM_H__
+#define __ENUM_H__
+
+namespace OBJID
+{
+	enum ID { PLAYER, MONSTER, BULLET, MBULLET, NPC, CAIN, POTAL, SEAL, EFFECT, END };
+}
+
+namespace UIID
+{
+	enum ID { STATUS, HPBALL, MPBALL, SKILL, INVEN, EVENT, MOUSE, END };
+}
+
+namespace SCENE
+{
+	enum SCENE { SCENE_TITLE, MAP_EDITOR, SCENE_1, SCENE_2, SCENE_3, END };
+}
+
+namespace STATE
+{
+	enum STATE {IDLE, RUN, WALK, ATTACKIDLE, ATTACK, CASTING, HITTED, DEAD, END};
+}
+
+namespace GROUPID
+{
+	enum ID { BACKGROUND, GAMEOBJECT, EFFECT, END };
+}
+
+namespace ITEMSTATE
+{
+	enum STATE { FIELD, INVEN, EQUIP, HAND, SHOP, END };
+}
+
+namespace ITEMTYPE
+{
+	enum TYPE { WEAPON, ARMOR, HELM, NECKLACE, GLOVES, RING, SASH, BOOTS, USE, END };
+}
+
+namespace ITEMSLOT
+{
+	enum TYPE { WEAPON, ARMOR, HELM, NECKLACE, GLOVES, RING1, RING2, SASH, BOOTS, USE, END };
+}
+
+namespace POTIONSLOT
+{
+	enum SLOT { ONE, TWO, THREE, FOUR, END};
+}
+
+namespace SKILLSLOT
+{
+	enum SLOT { F1, F2, F3, F4, F5, F6, F7, F8, F9, F10, F11, F12, END};
+}
+
+namespace SKILL
+{
+	enum SKILL { ICEBOLT, ICEBLAST, FROSTNOVA, GLACIALSPIKE, BLIZZARD, FROZENORB, TELLEPORT, CHARGEDBOLT, MULTISHOT, END};
+}
+#endif // !__ENUM_H__

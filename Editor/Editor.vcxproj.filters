@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\99.Default">
+      <UniqueIdentifier>{2394c206-2f1e-4fd8-8884-22769ac966b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\00.MainGame">
+      <UniqueIdentifier>{2631f980-f53d-440b-99e3-d6b32c72451d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.MyEdit">
+      <UniqueIdentifier>{ecb64678-1e95-4140-964b-5a74b39cc8d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\98.Manager">
+      <UniqueIdentifier>{33dcb90c-593e-4f3f-9dda-552baa9c0000}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\98.Manager\00.KeyMgr">
+      <UniqueIdentifier>{7031b534-f978-4446-bd00-d937b48040db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.MyEdit\00.Line">
+      <UniqueIdentifier>{349ec62a-d252-4ffb-9168-c5cc7c84c797}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\98.Manager\01.ScrollMgr">
+      <UniqueIdentifier>{82a68df7-5378-40be-a779-f0dd7cdf5fbe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor.h">
+      <Filter>소스 파일\99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>소스 파일\99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>소스 파일\99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>소스 파일\00.MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="MyEdit.h">
+      <Filter>소스 파일\01.MyEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyMgr.h">
+      <Filter>소스 파일\98.Manager\00.KeyMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.h">
+      <Filter>소스 파일\01.MyEdit\00.Line</Filter>
+    </ClInclude>
+    <ClInclude Include="ScrollMgr.h">
+      <Filter>소스 파일\98.Manager\01.ScrollMgr</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Editor.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일\99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>소스 파일\00.MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="MyEdit.cpp">
+      <Filter>소스 파일\01.MyEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyMgr.cpp">
+      <Filter>소스 파일\98.Manager\00.KeyMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Line.cpp">
+      <Filter>소스 파일\01.MyEdit\00.Line</Filter>
+    </ClCompile>
+    <ClCompile Include="ScrollMgr.cpp">
+      <Filter>소스 파일\98.Manager\01.ScrollMgr</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Editor.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Editor.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>소스 파일\99.Default</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
